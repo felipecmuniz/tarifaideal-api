@@ -1,3 +1,20 @@
+/**
+ * @swagger
+ * /api/concessionarias/{sigla}:
+ *   get:
+ *     summary: Retorna dados tarifários de uma concessionária
+ *     parameters:
+ *       - name: sigla
+ *         in: path
+ *         required: true
+ *         schema:
+ *           type: string
+ *         example: neoenergia-pe
+ *     responses:
+ *       200:
+ *         description: JSON com dados da concessionária
+ */
+
 import fs from 'fs';
 import path from 'path';
 
