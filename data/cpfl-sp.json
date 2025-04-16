@@ -1,0 +1,70 @@
+{
+  "sigla": "cpfl-sp",
+  "nome": "CPFL São Paulo",
+  "ultima_atualizacao": "2024-02-01",
+  "modalidades": {
+    "convencional": {
+      "TUSD": 0.5488,
+      "TE": 0.4467
+    },
+    "branca": {
+      "ponta": 1.278,
+      "intermediario": 0.682,
+      "fora_ponta": 0.381
+    }
+  },
+  "horarios_tarifas": {
+    "ponta": [
+      {
+        "dias": [
+          "segunda",
+          "terça",
+          "quarta",
+          "quinta",
+          "sexta"
+        ],
+        "inicio": "17:00",
+        "fim": "21:00"
+      }
+    ],
+    "intermediario": [],
+    "fora_ponta": [
+      {
+        "dias": [
+          "segunda",
+          "terça",
+          "quarta",
+          "quinta",
+          "sexta"
+        ],
+        "inicio": "00:00",
+        "fim": "17:00"
+      },
+      {
+        "dias": [
+          "segunda",
+          "terça",
+          "quarta",
+          "quinta",
+          "sexta"
+        ],
+        "inicio": "21:00",
+        "fim": "23:59"
+      },
+      {
+        "dias": [
+          "sábado",
+          "domingo"
+        ],
+        "inicio": "00:00",
+        "fim": "23:59"
+      }
+    ]
+  },
+  "bandeiras": {
+    "verde": 0.0,
+    "amarela": 0.01874,
+    "vermelha_p1": 0.03971,
+    "vermelha_p2": 0.09492
+  }
+}
